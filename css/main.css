@@ -1,9 +1,28 @@
+html {
+  width: 100%;
+  height: 100%; }
+
 body {
-  font: 16px Helvetica, Arial;
+  width: 590px;
+  height: 100%;
+  margin: 0 auto;
+  font: 16px Monaco, Source Code Pro, Helvetica, Arial;
   font-weight: lighter;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-p {
+header {
+  background-color: black;
+  color: white; }
+  header h1 {
+    margin: 0; }
+
+nav ul {
+  margin: 0;
+  padding: 0; }
+  nav ul li {
+    list-style-type: none; }
+
+article p {
   font-size: small; }

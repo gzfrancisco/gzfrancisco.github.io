@@ -1,2 +1,2 @@
 server: jekyll serve --watch
-sass: sass --watch css/sass:css --require bourbon
+sass: sass --watch css/_sass:css --require bourbon
