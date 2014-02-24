@@ -6,4 +6,4 @@ category: info
 icon: none
 ---
 
-Here goes the first post.
+Under construction, but I'll writing more and more.

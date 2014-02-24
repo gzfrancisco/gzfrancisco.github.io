@@ -1,5 +1,16 @@
 @import bourbon
 
+$gray-primary: #363636
+$gray-secondary: #9E9E9E
+$violet-secondary: #CC50EB
+$violet-primary: #7D39A9
+
+$text: white
+
+@mixin blur($blur_size)
+  -webkit-filter: blur($blur_size)
+  filter: blur($blur_size)
+
 html
   width: 100%
   height: 100%
@@ -8,21 +19,75 @@ body
   width: 590px
   height: 100%
   margin: 0 auto
-  font: 16px Monaco, Source Code Pro, Helvetica, Arial
+  font: 16px Helvetica, Arial
   font-weight: lighter
   @include box-sizing(border-box)
+  // background-image: url(/img/Donatello.jpg)
+  // background-position: center top fixed
+  // background-repeat: no-repeat
+  background-color: #363636
+  color: $gray-secondary
+div.blur
+  position: fixed
+  height: 100%
+  width: 590px
+  margin: 0 auto
+  @include blur(10px)
+  opacity: 0.9
+  background-image: url(/img/Donatello.jpg)
+  background-position: center top
+  background-repeat: no-repeat
+  z-index: -1
+div.opacity
+  position: fixed
+  height: 100%
+  width: 590px
+  background-color: rgba(255,255,255,0.9)
+  // @include linear-gradient(#fff, #363636)
+  @include radial-gradient(#fff, #363636)
+  opacity: 0.1
+  z-index: -1
 
 header
-  background-color: black
-  color: white
+  opacity: 0.8
+  height: 200px
+  text-align: center
+  padding-top: 20px
   h1
+    color: $violet-primary
+    font-weight: lighter
     margin: 0
-nav
+  h2
+    margin: 0
+    color: $violet-secondary
+a
+  color: $violet-primary
+  text-decoration: none
+section
   ul
     margin: 0
     padding: 0
     li
+      width: 500px
+      height: 100px
       list-style-type: none
+      display: block
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 15px
+      margin: 10px
+      padding: 10px
+      & *
+        opacity: 1
+      &:nth-child(even)
+        text-align: right
+        margin: 0 10px 0 auto
+      a
+
 article
+  border-radius: 15px
+  padding: 10px
+  background-color: rgba( $gray-primary, .8 )
+  & *
+  h3
   p
     font-size: small

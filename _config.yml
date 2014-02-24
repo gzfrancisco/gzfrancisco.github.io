@@ -2,3 +2,6 @@ name: Donatello's Bōjutsu
 markdown: redcarpet
 pygments: true
 permalink: pretty
+author: Francisco Granados
+description: "Blog about Francisco Granados life, music and code."
+exclude: ['LICENSE', 'Procfile', 'README.md']

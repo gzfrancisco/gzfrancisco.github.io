@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta content="autor" value="Francisco Granados">
-  <meta content="description" value="Blog about Francisco Granados life, music and code.">
+  <meta content="autor" value="{{site.author}}">
+  <meta content="description" value="{{site.description}}">
   <title>{{site.name}}, {{page.title}}</title>
   <meta name="viewport" content="width=device-width">
 
@@ -12,15 +12,23 @@
 
 </head>
 <body>
-
+  <div class="blur"></div>
+  <div class="opacity"></div>
   <header>
     <h1><a href="/">{{ site.name }}</a></h1>
-    <h2>Francisco Granados blog</h2>
+    <h2>{{site.description}}</h2>
   </header>
 
   {{ content }}
 
   <footer>
+    <nav>
+      <a href="">About</a>
+      <a href="">Projects</a>
+      <a href="">Courses</a>
+      <a href="">Services</a>
+      <a href="">Contact</a>
+    </nav>
   </footer>
 
 </body>
