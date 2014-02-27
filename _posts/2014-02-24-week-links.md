@@ -25,3 +25,15 @@ Help guide to tasks, commands and concepts. Great resource.
 
 ### [Advance Jekyll Plugin & Features](http://www.divshot.com/blog/web-development/advanced-jekyll-features/)
 This shows how to create plugins and add features to your jekill blog.
+
+### [5 Reasons Why You're Not Writing Tests](http://www.justinweiss.com/blog/2014/02/20/5-reasons-why-youre-not-writing-tests/)
+A little resume of testing
+
+### [How github works](http://zachholman.com/posts/how-github-works/)
+Guide to workflow in github
+
+### [iOS 7 translucent efect in Web](http://www.webdirections.org/blog/creating-ios-7-effects-with-css3-translucency-and-transparency/)
+It's complicated
+
+### [Controlling color with sass functions](http://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
+Small tour to use the color functions in sass
