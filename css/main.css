@@ -9,7 +9,7 @@ html {
     background-color: gray; }
     html body aside {
       font-size: initial;
-      width: 30%;
+      width: 250px;
       height: 100%;
       background-color: red;
       display: inline-block;
