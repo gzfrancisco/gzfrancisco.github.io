@@ -2,6 +2,9 @@ ul {
   margin: 0;
   padding: 0; }
 
+li {
+  list-style: none; }
+
 a {
   text-decoration: none;
   color: inherit; }
@@ -25,11 +28,31 @@ html {
       html body aside header h1 {
         font-size: 28px;
         font-weight: bold;
-        color: #6c7077; }
+        color: #6c7077;
+        text-shadow: white 1px 1px 0px; }
       html body aside header h2 {
         font-size: 15px;
         font-weight: 100;
-        color: #5d5f67; }
+        color: #5d5f67;
+        text-shadow: white 1px 1px 0px; }
+      html body aside nav {
+        border-top: solid 1px #eeeeee;
+        border-bottom: solid 1px #eeeeee;
+        margin: 10px 0px;
+        padding: 10px 0px; }
+        html body aside nav ul {
+          color: #999999;
+          font-weight: 200;
+          text-shadow: white 1px 1px 0px;
+          font-size: 14px;
+          line-height: 30px; }
+      html body aside ul {
+        color: #999999;
+        font-weight: 200;
+        text-shadow: white 1px 1px 0px;
+        font-size: 15px;
+        line-height: 28px;
+        word-spacing: 10px; }
     html body section {
       background-color: #f0f0f0;
       width: 100%;
