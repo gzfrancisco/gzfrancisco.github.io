@@ -1,115 +1,31 @@
 @import bourbon
 
-$gray-primary: #333333
-$gray-secondary: #AFAFAF
-$violet-primary: #673991
-$violet-secondary: #B850DF
-
-$header-title: tint( $violet-primary, 20%)
-$header-subtitle: lighten( $violet-secondary, 10%)
-
-$header-height: 250px
-
-$text: #eee
-$text-background: lighten($gray-primary, 5%)
-$text-title: $gray-secondary
-
-@mixin blur($blur_size)
-  -webkit-filter: blur($blur_size)
-  filter: blur($blur_size)
-
 html
-  width: 100%
   height: 100%
-
-body
-  @include box-sizing(border-box)
-  width: 590px
-  height: 100%
-  margin: 0 auto
-  font: 16px Helvetica, Arial
-  font-weight: lighter
-  background-color: $gray-primary
-  color: $gray-secondary
-div.blur
-  @include blur(10px)
-  position: fixed
-  height: 100%
-  width: 590px
-  margin: 0 auto
-  opacity: 1
-  background-image: url(/img/Donatello.jpg)
-  background-position: center top
-  background-repeat: no-repeat
-  z-index: -1
-div.opacity
-  position: fixed
-  height: 100%
-  width: 590px
-  background-color: rgba(255,255,255,0.9)
-  @include radial-gradient(#fff, $gray-primary)
-  opacity: 0.1
-  z-index: -1
-
-header
-  height: $header-height
-  h1
-    font-family: Source Code Pro, Monaco, Sans-Serif
-    font-weight: lighter
-    margin: 0
-    a
-      color: $header-title
-  h2
-    margin: 0
-    font-weight: lighter
-    color: $header-subtitle
-
-a
-  text-decoration: none
-
-
-section
-  ul
-    margin: 0
+  body
+    width: 1200px
+    height: 100%
+    font-size: 0px
+    margin: 0 auto
     padding: 0
-    li
-      width: 80%
-      height: 100px
-      list-style-type: none
-      display: block
-      background-color: rgba($text-background, 0.8)
-      border-radius: 15px
-      margin: 10px 10px 10px 0px
-      padding: 10px
-      color: $text
-      font-family: Source Code Pro, Helvetica, Sans-Serif
-      font-weight: lighter
-      font-style: italic
-      font-size: 0.8em
-      & *
-        opacity: 1
-      &:nth-child(even)
-        text-align: right
-        margin: 0 0 0 auto
-      a
-        font-size: 1.6em
-        font-style: normal
-        font-family: Source Code Pro, Helvetica, Sans-Serif
-        color: $text
-        display: block
-        width: 100%
-        height: 100%
-
-article
-  border-radius: 15px
-  padding: 10px
-  background-color: rgba($text-background, 0.85)
-  font-family: Source Code Pro, Monaco, Sans-Serif
-  h1, h2, h3, h4
-    color: $text-title
-    a
-      font-weight: lighter
-      color: $text-title
-      &:after
-        content: ' [link]'
-  p
+    background-color: gray
+    aside
+      font-size: initial
+      width: 30%
+      height: 100%
+      background-color: red
+      display: inline-block
+      vertical-align: top
+      margin: -50px
+    section
+      width: 70%
+      height: 100%
+      font-size: initial
+      background-color: blue
+      display: inline-block
+      vertical-align: top
+      article
+        width: 560px
+        background-color: violet
+    footer
+      background-color: gray

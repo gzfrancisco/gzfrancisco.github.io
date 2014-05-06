@@ -12,24 +12,14 @@
 
 </head>
 <body>
-  <div class="blur"></div>
-  <div class="opacity"></div>
-  <header>
-    <h1><a href="/">{{ site.name }}</a></h1>
-    <h2>{{site.description}}</h2>
-  </header>
-
-  {{ content }}
-
-  <footer>
-    <nav>
-      <a href="">About</a>
-      <a href="">Projects</a>
-      <a href="">Courses</a>
-      <a href="">Services</a>
-      <a href="">Contact</a>
-    </nav>
-  </footer>
-
+  <aside>
+    {% include title.html %}
+    {% include menu.html %}
+    {% include social.html %}
+  </aside>
+  <section>
+    {{ content }}
+  </section>
+  {% include footer.html %}
 </body>
 </html>
