@@ -53,6 +53,8 @@ html {
         font-size: 15px;
         line-height: 28px;
         word-spacing: 10px; }
+        html body aside ul li a i {
+          width: 10px; }
     html body section {
       background-color: #f0f0f0;
       width: 100%;

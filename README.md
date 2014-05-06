@@ -21,6 +21,7 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Create a gem file with the dependencies.
 * Implement theme
 * Clone and fix the original theme
+* Add stackoverflow and linkedin profiles links
 
 
 ## Based on
