@@ -1,3 +1,6 @@
+* {
+  font-family: "Helvetica Neue", sans-serif; }
+
 p {
   font-family: "Helvetica Neue", sans-serif; }
 
@@ -24,7 +27,8 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    border-top: solid 5px #d70919; }
+    border-top: solid 5px #d70919;
+    background-color: #f0f0f0; }
     html body aside {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -71,7 +75,7 @@ html {
       box-sizing: border-box;
       background-color: #f0f0f0;
       width: 100%;
-      height: 100%;
+      height: auto;
       padding-left: 250px; }
       html body section header {
         box-shadow: inset 0 -10px 5px -2px rgba(119, 119, 119, 0.35);
@@ -104,3 +108,64 @@ html {
           color: white;
           border-radius: 5px;
           border: solid 1px rgba(255, 255, 255, 0.4); }
+      html body section article {
+        margin: 0px 120px; }
+        html body section article h1 {
+          font-size: 3em;
+          font-weight: 700;
+          color: #d90006;
+          line-height: 130%; }
+        html body section article p {
+          font-size: 2em;
+          font-weight: 100;
+          color: #2e2e2e;
+          padding-top: 0;
+          line-height: 140%; }
+          html body section article p a {
+            color: #d90006; }
+        html body section article #recent-post {
+          background-color: white;
+          color: #4d4d4d;
+          box-shadow: 1px 1px 0 1px #e8e8e8;
+          padding: 10px 40px; }
+          html body section article #recent-post h2 {
+            font-weight: 700;
+            color: #6d7680;
+            padding-bottom: 10px;
+            font-size: 1.6em; }
+          html body section article #recent-post ul {
+            font-weight: lighter;
+            padding: 0px 0px 0px 40px; }
+            html body section article #recent-post ul li {
+              color: #29598c;
+              width: 100%;
+              margin: 10px 0px; }
+              html body section article #recent-post ul li a {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 19px;
+                color: #428fe0; }
+              html body section article #recent-post ul li span {
+                font-size: 12px;
+                background-color: #999999;
+                border-radius: 10px;
+                font-weight: bold;
+                line-height: 1;
+                color: white;
+                text-align: center;
+                white-space: nowrap;
+                padding: 0px 5px;
+                margin: 0px 5px; }
+              html body section article #recent-post ul li time {
+                float: right;
+                color: #c9c9c9;
+                text-shadow: 1px 1px white;
+                font-weight: 100;
+                font-size: 18px;
+                line-height: 19px; }
+      html body section footer {
+        margin: 50px 20px;
+        color: #999999;
+        font-weight: 100;
+        font-size: 12px;
+        text-shadow: 1px 1px white; }

@@ -1,17 +1,18 @@
 /*
 Syntax error: Undefined variable: "$font-family-primary".
-        on line 2 of css/_sass/elements.sass
+        on line 3 of css/_sass/elements.sass
 
-1: p
-2:   font-family:  $font-family-primary
-3: h1
-4:   font-family: $font-family-primary
-5: ul
-6:   margin: 0
-7:   padding: 0
+1: $anchor-color: #D90006
+2: *
+3:   font-family:  $font-family-primary
+4: p
+5:   font-family:  $font-family-primary
+6: h1
+7:   font-family: $font-family-primary
+8: ul
 
 Backtrace:
-css/_sass/elements.sass:2
+css/_sass/elements.sass:3
 /Users/gzfrancisco/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/gzfrancisco/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/gzfrancisco/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.3.7/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -61,4 +62,4 @@ css/_sass/elements.sass:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$font-family-primary\".\A         on line 2 of css/_sass/elements.sass\A \A 1: p\A 2:   font-family:  $font-family-primary\A 3: h1\A 4:   font-family: $font-family-primary\A 5: ul\A 6:   margin: 0\A 7:   padding: 0"; }
+  content: "Syntax error: Undefined variable: \"$font-family-primary\".\A         on line 3 of css/_sass/elements.sass\A \A 1: $anchor-color: #D90006\A 2: *\A 3:   font-family:  $font-family-primary\A 4: p\A 5:   font-family:  $font-family-primary\A 6: h1\A 7:   font-family: $font-family-primary\A 8: ul"; }
