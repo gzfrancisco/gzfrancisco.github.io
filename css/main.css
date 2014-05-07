@@ -109,7 +109,8 @@ html {
           border-radius: 5px;
           border: solid 1px rgba(255, 255, 255, 0.4); }
       html body section article {
-        margin: 0px 120px; }
+        width: 80%;
+        margin: 0px auto; }
         html body section article h1 {
           font-size: 3em;
           font-weight: 700;
