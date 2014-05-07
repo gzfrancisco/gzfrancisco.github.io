@@ -22,6 +22,8 @@ To run the developer mode, in terminal run foreman with all task.
 * Implement theme
 * Clone and fix the original theme
 * Add stackoverflow and linkedin profiles links
+* Remove Guard file configuration
+* Remove Awesome font gem
 
 
 ## Based on

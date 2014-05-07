@@ -2,10 +2,13 @@
 layout: default
 title: 'home'
 ---
-<section>
-  <ul>
-  {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-</section>
+<header>
+  <!-- <img src="img/showcase.jpg"> -->
+  <h1>What is this, anyway?</h1>
+  <a href="">Read more</a>
+</header>
+<ul>
+{% for post in site.posts %}
+  <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

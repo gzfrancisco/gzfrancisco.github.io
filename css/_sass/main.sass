@@ -16,6 +16,7 @@ html
     padding: 0
     border-top: solid $border-top-width $border-top-color
     aside
+      @include box-sizing(border-box)
       width: $aside-width
       height: 100%
       position: fixed
@@ -27,12 +28,12 @@ html
           font-size: 28px
           font-weight: bold
           color: #6C7077
-          text-shadow: rgb(255, 255, 255) 1px 1px 0px
+          text-shadow: white 1px 1px 0px
         h2
           font-size: 15px
           font-weight: 100
           color: #5D5F67
-          text-shadow: rgb(255, 255, 255) 1px 1px 0px
+          text-shadow: 1px 1px #fff
       nav
         border-top: solid 1px #EEEEEE
         border-bottom: solid 1px #EEEEEE
@@ -41,21 +42,55 @@ html
         ul
           color: #999999
           font-weight: 200
-          text-shadow: rgb(255, 255, 255) 1px 1px 0px
+          text-shadow: white 1px 1px 0px
           font-size: 14px
           line-height: 30px
           // text-indent: 40px
       ul
         color: #999999
         font-weight: 200
-        text-shadow: rgb(255, 255, 255) 1px 1px 0px
+        text-shadow: white 1px 1px 0px
         font-size: 15px
         line-height: 28px
         word-spacing: 10px
         li a i
           width: 10px
     section
+      @include box-sizing(border-box)
       background-color: #F0F0F0
       width: 100%
       height: 100%
-      margin-left: $aside-width
+      padding-left: $aside-width
+      header
+        box-shadow: inset 0 -10px 5px -2px rgba(119,119,119,0.35)
+        height: 450px
+        width: auto
+        overflow: hidden
+        position: relative
+        background-image: url(/img/showcase.jpg)
+        img
+        h1
+          position: relative
+          text-align: center
+          top: 300px
+          color: white
+          display: block
+          width: 50%
+          margin: 0 auto
+          font-size: 42px
+
+        a
+          position: relative
+          text-align: center
+          width: 93px
+          height: 34px
+          line-height: 30px
+          vertical-align: middle
+          font-size: 14px
+          font-weight: 200
+          margin: 0 auto
+          display: block
+          top: 320px
+          color: white
+          border-radius: 5px
+          border: solid 1px rgba(255, 255, 255, 0.4)
