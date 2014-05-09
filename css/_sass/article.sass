@@ -1,0 +1,58 @@
+h1
+  font-size: 3em
+  font-weight: 900
+h2
+  font-size: 2.6em
+  font-weight: 600
+h3
+  font-size: 2.3em
+  font-weight: 500
+h4
+  font-size: 2em
+  font-weight: 300
+h5
+  font-size: 1.6em
+  font-weight: 200
+h6
+  font-size: 1.3em
+  font-weight: 100
+
+p
+  // font-size: 1em
+  font-size: 2em
+  font-weight: 100
+  color: $third-color
+  line-height: 120%
+  a
+    color: $anchor-color
+
+ul, ol, dl
+  font-size: 2em
+  font-weight: 100
+  margin: 20px 0px
+  line-height: 120%
+li
+  list-style-position: inside
+  color: $third-color
+// Special elements
+hr
+  border: 0 solid black
+  border-top: 1px solid $secondary-color-lighten
+blockquote
+  @extend .clean-boundaries
+  margin: 20px 0
+  p
+    font-style: italic
+    width: 80%
+    margin: 0 auto
+
+code
+  font-family: $font-family-code
+  font-weight: 100
+  font-size: 1em
+  background-color: $secondary-color-lighten
+  color: $background-color
+  padding: 0px 10px
+
+pre code
+  display: block

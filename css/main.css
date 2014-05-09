@@ -1,181 +1,232 @@
-.clean-boundaries, h1, h2, h3, h4, h5, h6, ul, ol, dl {
+.clean-boundaries, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, html body {
   margin: 0;
   padding: 0; }
 
 .clean-font, * {
   font-family: "Helvetica Neue", Arial, sans-serif; }
 
-li {
-  list-style: none; }
+.full-window, html, html body, html body section {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 14px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d70919;
+  line-height: 130%; }
 
 a {
   text-decoration: none;
   color: inherit; }
 
-html {
-  width: 100%;
-  height: 100%; }
-  html body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    border-top: solid 5px #d70919;
-    background-color: #f0f0f0; }
-    html body aside {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      width: 250px;
-      height: 100%;
-      position: fixed;
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background-color: #f8f8f8;
-      padding: 20px 30px; }
-      html body aside header h1 {
-        font-size: 28px;
-        font-weight: bold;
-        color: #6c7077;
-        text-shadow: white 1px 1px 0px; }
-      html body aside header h2 {
-        font-size: 15px;
-        font-weight: 100;
-        color: #5d5f67;
-        text-shadow: 1px 1px white; }
-      html body aside nav {
-        border-top: solid 1px #eeeeee;
-        border-bottom: solid 1px #eeeeee;
-        margin: 10px 0px;
-        padding: 10px 0px; }
-        html body aside nav ul {
-          color: #999999;
-          font-weight: 200;
-          text-shadow: white 1px 1px 0px;
-          font-size: 14px;
-          line-height: 30px; }
-      html body aside ul {
-        color: #999999;
+aside {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px 30px; }
+  aside header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6c7077;
+    text-shadow: white 1px 1px 0px; }
+  aside header h2 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #5d5f67;
+    text-shadow: 1px 1px white; }
+  aside nav {
+    border-top: solid 1px #eeeeee;
+    border-bottom: solid 1px #eeeeee;
+    margin: 10px 0px;
+    padding: 10px 0px; }
+    aside nav ul {
+      color: #999999;
+      font-weight: 200;
+      text-shadow: white 1px 1px 0px;
+      font-size: 14px;
+      line-height: 30px; }
+  aside ul {
+    list-style: none;
+    color: #999999;
+    font-weight: 200;
+    text-shadow: white 1px 1px 0px;
+    font-size: 15px;
+    line-height: 28px;
+    word-spacing: 10px; }
+    aside ul li a i {
+      width: 10px; }
+
+h1 {
+  font-size: 3em;
+  font-weight: 900; }
+
+h2 {
+  font-size: 2.6em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 2.3em;
+  font-weight: 500; }
+
+h4 {
+  font-size: 2em;
+  font-weight: 300; }
+
+h5 {
+  font-size: 1.6em;
+  font-weight: 200; }
+
+h6 {
+  font-size: 1.3em;
+  font-weight: 100; }
+
+p {
+  font-size: 2em;
+  font-weight: 100;
+  color: #2e2e2e;
+  line-height: 120%; }
+  p a {
+    color: #d90006; }
+
+ul, ol, dl {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 20px 0px;
+  line-height: 120%; }
+
+li {
+  list-style-position: inside;
+  color: #2e2e2e; }
+
+hr {
+  border: 0 solid black;
+  border-top: 1px solid #879099; }
+
+blockquote {
+  margin: 20px 0; }
+  blockquote p {
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto; }
+
+code {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  background-color: #879099;
+  color: #f0f0f0;
+  padding: 0px 10px; }
+
+pre code {
+  display: block; }
+
+html body {
+  border-top: solid 5px #d70919;
+  background-color: #f0f0f0; }
+  html body section {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 250px; }
+    html body section header {
+      box-shadow: inset 0 -10px 5px -2px rgba(119, 119, 119, 0.35);
+      height: 450px;
+      width: auto;
+      overflow: hidden;
+      position: relative;
+      background-image: url(/img/showcase.jpg); }
+      html body section header h1 {
+        position: relative;
+        text-align: center;
+        top: 300px;
+        color: white;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 42px; }
+      html body section header a {
+        position: relative;
+        text-align: center;
+        width: 93px;
+        height: 34px;
+        line-height: 30px;
+        vertical-align: middle;
+        font-size: 14px;
         font-weight: 200;
-        text-shadow: white 1px 1px 0px;
-        font-size: 15px;
-        line-height: 28px;
-        word-spacing: 10px; }
-        html body aside ul li a i {
-          width: 10px; }
-    html body section {
+        margin: 0 auto;
+        display: block;
+        top: 320px;
+        color: white;
+        border-radius: 5px;
+        border: solid 1px rgba(255, 255, 255, 0.4); }
+    html body section article {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      background-color: #f0f0f0;
-      width: 100%;
-      height: 100%;
-      padding-left: 250px; }
-      html body section header {
-        box-shadow: inset 0 -10px 5px -2px rgba(119, 119, 119, 0.35);
-        height: 450px;
-        width: auto;
-        overflow: hidden;
-        position: relative;
-        background-image: url(/img/showcase.jpg); }
-        html body section header h1 {
-          position: relative;
-          text-align: center;
-          top: 300px;
-          color: white;
-          display: block;
-          width: 100%;
-          margin: 0 auto;
-          font-size: 42px; }
-        html body section header a {
-          position: relative;
-          text-align: center;
-          width: 93px;
-          height: 34px;
-          line-height: 30px;
-          vertical-align: middle;
-          font-size: 14px;
-          font-weight: 200;
-          margin: 0 auto;
-          display: block;
-          top: 320px;
-          color: white;
-          border-radius: 5px;
-          border: solid 1px rgba(255, 255, 255, 0.4); }
-      html body section article {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 80%;
-        min-height: 100%;
-        height: auto;
-        margin: 0px auto -30px;
-        padding: 10px 0px 0px;
-        padding-bottom: 30px; }
-        html body section article h1 {
-          font-size: 3em;
+      width: 80%;
+      min-height: 100%;
+      height: auto;
+      margin: 0px auto -30px;
+      padding: 10px 0px 0px;
+      padding-bottom: 30px; }
+      html body section article #recent-post {
+        background-color: white;
+        color: #4d4d4d;
+        box-shadow: 1px 1px 0 1px #e8e8e8;
+        padding: 10px 40px; }
+        html body section article #recent-post h2 {
           font-weight: 700;
-          color: #d90006;
-          line-height: 130%; }
-        html body section article p {
-          font-size: 2em;
-          font-weight: 100;
-          color: #2e2e2e;
-          padding-top: 0;
-          line-height: 140%; }
-          html body section article p a {
-            color: #d90006; }
-        html body section article #recent-post {
-          background-color: white;
-          color: #4d4d4d;
-          box-shadow: 1px 1px 0 1px #e8e8e8;
-          padding: 10px 40px; }
-          html body section article #recent-post h2 {
-            font-weight: 700;
-            color: #6d7680;
-            padding-bottom: 10px;
-            font-size: 1.6em; }
-          html body section article #recent-post ul {
-            font-weight: lighter;
-            padding: 0px 0px 0px 40px; }
-            html body section article #recent-post ul li {
-              color: #29598c;
-              width: 100%;
-              margin: 10px 0px; }
-              html body section article #recent-post ul li a {
-                font-size: 18px;
-                font-weight: 500;
-                line-height: 19px;
-                color: #428fe0; }
-              html body section article #recent-post ul li span {
-                font-size: 12px;
-                background-color: #999999;
-                border-radius: 10px;
-                font-weight: bold;
-                line-height: 1;
-                color: white;
-                text-align: center;
-                white-space: nowrap;
-                padding: 0px 5px;
-                margin: 0px 5px; }
-              html body section article #recent-post ul li time {
-                float: right;
-                color: #c9c9c9;
-                text-shadow: 1px 1px white;
-                font-weight: 100;
-                font-size: 18px;
-                line-height: 19px; }
-      html body section footer {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 80%;
-        min-height: 30px;
-        position: relative;
-        margin-top: -30px;
-        height: 30px;
-        clear: both;
-        margin: 0px auto;
-        color: #999999;
-        font-weight: 100;
-        font-size: 12px;
-        text-shadow: 1px 1px white; }
+          color: #6d7680;
+          padding-bottom: 10px;
+          font-size: 1.6em; }
+        html body section article #recent-post ul {
+          font-weight: lighter;
+          padding: 0px 0px 0px 40px; }
+          html body section article #recent-post ul li {
+            color: #29598c;
+            width: 100%;
+            margin: 10px 0px; }
+            html body section article #recent-post ul li a {
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 19px;
+              color: #428fe0; }
+            html body section article #recent-post ul li span {
+              font-size: 12px;
+              background-color: #999999;
+              border-radius: 10px;
+              font-weight: bold;
+              line-height: 1;
+              color: white;
+              text-align: center;
+              white-space: nowrap;
+              padding: 0px 5px;
+              margin: 0px 5px; }
+            html body section article #recent-post ul li time {
+              float: right;
+              color: #c9c9c9;
+              text-shadow: 1px 1px white;
+              font-weight: 100;
+              font-size: 18px;
+              line-height: 19px; }
+    html body section footer {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 80%;
+      min-height: 30px;
+      position: relative;
+      margin-top: -30px;
+      height: 30px;
+      clear: both;
+      margin: 0px auto;
+      color: #999999;
+      font-weight: 100;
+      font-size: 12px;
+      text-shadow: 1px 1px white; }

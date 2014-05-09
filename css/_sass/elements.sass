@@ -1,5 +1,24 @@
 // Variables
 $font-family-primary: 'Helvetica Neue', Arial, sans-serif
+$font-family-code: 'Source Code Pro', sans-serif
+
+$primary-color: #D70919
+$primary-color-lighten: lighten($primary-color, 10%)
+$primary-color-darken: darken($primary-color, 10%)
+$secondary-color: #6D7680
+$secondary-color-lighten: lighten($secondary-color, 10%)
+$secondary-color-darken: darken($secondary-color, 10%)
+$third-color: #2E2E2E
+
+$anchor-color: #D90006
+$background-color: #F0F0F0
+$sidebar-background-color: #F8F8F8
+$sidebar-title-color: #6C7077
+$sidebar-subtitle-color: #5D5F67
+$border-top-color: $primary-color
+$border-top-width: 5px
+$aside-width: 250px
+$footer-height: 30px
 
 // Extended classes
 .clean-boundaries
@@ -8,17 +27,22 @@ $font-family-primary: 'Helvetica Neue', Arial, sans-serif
 
 .clean-font
   font-family: $font-family-primary
+
+.full-window
+  width: 100%
+  height: 100%
 // Elements
 *
   @extend .clean-font
+body
+  font-size: 14px
 h1, h2, h3, h4, h5, h6
   @extend .clean-boundaries
-p
+  color: $primary-color
+  line-height: 130%
 
 ul, ol, dl
   @extend .clean-boundaries
-li
-  list-style: none
 a
 
   text-decoration: none
