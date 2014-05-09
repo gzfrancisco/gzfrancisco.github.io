@@ -1,16 +1,25 @@
-$anchor-color: #D90006
-*
-  font-family:  $font-family-primary
-p
-  font-family:  $font-family-primary
-h1
-  font-family: $font-family-primary
-ul
+// Variables
+$font-family-primary: 'Helvetica Neue', Arial, sans-serif
+
+// Extended classes
+.clean-boundaries
   margin: 0
   padding: 0
+
+.clean-font
+  font-family: $font-family-primary
+// Elements
+*
+  @extend .clean-font
+h1, h2, h3, h4, h5, h6
+  @extend .clean-font
+p
+  @extend .clean-font
+ul, ol, dl
+  @extend .clean-boundaries
 li
   list-style: none
 a
-  font-family: $font-family-primary
+  @extend .clean-font
   text-decoration: none
   color: inherit

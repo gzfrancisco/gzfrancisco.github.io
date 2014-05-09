@@ -1,6 +1,6 @@
 name: Don's Bōjutsu
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: pretty
 author: Francisco Granados
 description: 'Memories for code, music and life.'
