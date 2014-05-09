@@ -126,6 +126,15 @@ code {
 pre code {
   display: block; }
 
+table thead tr th {
+  color: #d70919;
+  font-size: 1.5em;
+  font-weight: 300; }
+table tbody tr td {
+  color: #6d7680;
+  font-size: 1em;
+  font-weight: 200; }
+
 html body {
   border-top: solid 5px #d70919;
   background-color: #f0f0f0; }
@@ -222,10 +231,9 @@ html body {
       width: 80%;
       min-height: 30px;
       position: relative;
-      margin-top: -30px;
       height: 30px;
       clear: both;
-      margin: 0px auto;
+      margin: 40px auto 0;
       color: #999999;
       font-weight: 100;
       font-size: 12px;
