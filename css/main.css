@@ -1,8 +1,8 @@
-.clean-boundaries, ul, ol, dl {
+.clean-boundaries, h1, h2, h3, h4, h5, h6, ul, ol, dl {
   margin: 0;
   padding: 0; }
 
-.clean-font, *, h1, h2, h3, h4, h5, h6, p, a {
+.clean-font, * {
   font-family: "Helvetica Neue", Arial, sans-serif; }
 
 li {
@@ -169,7 +169,6 @@ html {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         width: 80%;
-        height: 30px;
         min-height: 30px;
         position: relative;
         margin-top: -30px;
