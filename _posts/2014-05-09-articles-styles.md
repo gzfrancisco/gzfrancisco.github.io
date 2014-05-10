@@ -2,7 +2,7 @@
 title: Article styles
 subtitle: Basic specification for articles
 layout: post
-date: 2014-05-09 17:13:00
+date: 2014-05-09 05:13:00
 ---
 
 # Header 1
