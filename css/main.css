@@ -35,14 +35,20 @@ aside {
   aside header h1 {
     font-size: 1.9em;
     font-weight: bold;
-    color: #6c7077;
-    text-shadow: white 1px 1px 0px; }
+    color: #6c7077; }
     aside header h1 a {
       color: #6c7077;
       display: block;
       position: static;
       top: 0;
-      width: inherit; }
+      width: inherit;
+      text-align: initial;
+      maring: 0 0;
+      height: auto;
+      line-height: inherit;
+      text-shadow: white 1px 1px 0px;
+      border: 0px none red;
+      border-radius: 0; }
   aside header h2 {
     font-size: 0.9em;
     font-weight: 100;
