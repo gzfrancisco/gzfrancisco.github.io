@@ -231,9 +231,10 @@ html body {
           html body section article #recent-post ul li {
             color: #29598c;
             width: 100%;
-            margin: 10px 0px; }
+            margin: 10px 0px;
+            line-height: 1em; }
             html body section article #recent-post ul li a {
-              font-size: 18px;
+              font-size: 0.7em;
               font-weight: 500;
               line-height: 19px;
               color: #428fe0; }
@@ -253,8 +254,7 @@ html body {
               color: #c9c9c9;
               text-shadow: 1px 1px white;
               font-weight: 100;
-              font-size: 18px;
-              line-height: 19px; }
+              font-size: 0.7em; }
     html body section footer {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -280,9 +280,13 @@ html body {
       html body section article p {
         font-size: 1em; }
       html body section article #recent-post {
-        padding: 10px 20px; }
+        padding: 10px 10px; }
         html body section article #recent-post ul {
           padding: 0;
           list-style: none; }
+          html body section article #recent-post ul li a {
+            font-size: 0.5em; }
+          html body section article #recent-post ul li time {
+            font-size: 0.5em; }
     html body section footer {
       font-size: 0.6em; } }
