@@ -1,3 +1,23 @@
 ---
 layout: page
+title: About code
+category: life
 ---
+<header class="life">
+  <hgroup>
+    <h1>My personal journey</h1>
+  </hgroup>
+</header>
+
+<h1>About my life</h1>
+
+<div id="recent-post">
+  <h2>Recent post about my life</h2>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.category == page.category %}
+      <li><a href="{{ post.url }}">{{post.title}}</a><time>{{ post.date | date_to_string }}</time></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

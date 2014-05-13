@@ -2,7 +2,7 @@
 layout: post
 title:  "24 Week links"
 date:   2014-02-23 00:49:59
-category: links
+category: code
 ---
 
 ### [What sould every programmer know about security](http://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security)

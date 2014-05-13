@@ -211,7 +211,23 @@ html body {
         margin: 0 -12.5%;
         overflow: hidden;
         position: relative;
-        background-image: url(/img/showcase.jpg); }
+        background-image: url(/img/showcase.jpg);
+        background-size: 125%;
+        background-position: center; }
+      html body section article header.index {
+        background-image: url(/img/iPhone5s.jpg); }
+      html body section article header.code {
+        background-image: url(/img/keyboard.jpg); }
+      html body section article header.music {
+        background-image: url(/img/vinyl.jpg); }
+      html body section article header.projects {
+        background-image: url(/img/macbook-pro.jpg); }
+      html body section article header.life {
+        background-image: url(/img/beach.jpg); }
+      html body section article header.about-me {
+        background-image: url(/img/globe.jpg); }
+      html body section article header.services {
+        background-image: url(/img/a7.jpg); }
       html body section article #recent-post {
         background-color: white;
         color: #4d4d4d;

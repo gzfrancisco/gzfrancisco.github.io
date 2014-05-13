@@ -2,6 +2,7 @@
 title: Week links
 layout: post
 date: 2014-02-26 21:14:00
+category: code
 ---
 
 ###[Unicode a beginners primer](http://webdesign.tutsplus.com/tutorials/unicode-a-beginners-primer--webdesign-18005)

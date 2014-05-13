@@ -1,3 +1,23 @@
 ---
 layout: page
+title: About code
+category: projects
 ---
+<header class="projects">
+  <hgroup>
+    <h1>My work done</h1>
+  </hgroup>
+</header>
+
+<h1>About my projects</h1>
+
+<div id="recent-post">
+  <h2>Recent post about my projects</h2>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.category == page.category %}
+      <li><a href="{{ post.url }}">{{post.title}}</a><time>{{ post.date | date_to_string }}</time></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
