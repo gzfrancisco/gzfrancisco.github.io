@@ -273,6 +273,9 @@ html body {
     padding: 0; }
     html body section article {
       width: 95%; }
+      html body section article header {
+        width: 105.5%;
+        margin: 0 -3%; }
       html body section article p {
         font-size: 1em; }
       html body section article #recent-post {
