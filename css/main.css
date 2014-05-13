@@ -267,7 +267,8 @@ html body {
 
 @media all and (max-width: 699px) and (min-width: 320px) {
   html body aside {
-    background: red;
+    z-index: 1;
+    overflow: auto;
     display: none; }
   html body section {
     padding: 0; }
