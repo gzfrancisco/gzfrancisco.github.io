@@ -33,6 +33,7 @@ To run the developer mode, in terminal run foreman with all task.
 * Change the dommain
 * Test another colors
 * Create RSS file
+* Fix font size to 1em = 28px
 
 
 ## Based on
