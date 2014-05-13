@@ -255,7 +255,7 @@ html body {
       color: #999999;
       text-shadow: inset 1px 1px white; }
 
-@media all and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   html body {
     font-size: 10px; }
     html body aside {
@@ -268,8 +268,9 @@ html body {
         width: 100%;
         padding: 0 10px; }
         html body section article header {
-          width: 100%;
-          margin: 0; }
+          min-width: 100%;
+          width: calc(100% + 20px);
+          margin: 0 -10px; }
         html body section article #recent-post {
           padding: 10px; }
           html body section article #recent-post ul {
@@ -278,3 +279,8 @@ html body {
       html body section footer {
         width: 100%;
         padding: 0 10px; } }
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  html body aside {
+    display: none; }
+  html body section {
+    padding: 0; } }
