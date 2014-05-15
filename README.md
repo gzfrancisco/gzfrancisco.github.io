@@ -35,10 +35,12 @@ To run the developer mode, in terminal run foreman with all task.
 * Test another colors
 * Create RSS file
 * Fix font size to 1em = 28px
-* Add favicon
+* √ Add favicon, *its awesome!*
 * Add meta tags
 * Optimize images
 * Implement button for toggle menu in phone and tablets
+* Create robots.txt
+* Create humans.txt
 
 ## Credits
 

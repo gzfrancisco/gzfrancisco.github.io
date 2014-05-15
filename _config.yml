@@ -6,5 +6,6 @@ highlighter: pygments
 permalink: pretty
 author: Francisco Granados
 description: 'Memories for code, music and life.'
+keywords: 'gzfrancisco blog, Francisco Granados, iOS developer, ruby programmer'
 timezone: America/Mexico_City
 exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'Procfile', 'README.md']

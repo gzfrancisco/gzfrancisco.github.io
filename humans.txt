@@ -1,0 +1,14 @@
+/* TEAM */
+Owner: Francisco Granados.
+Site: http://gzfrancisco.name
+Twitter: @gzfrancisco
+Location: Mexico city, Mexico
+
+/* THANKS */
+
+
+/* SITE */
+Last update: 2014/05/15
+Standards: HTML5, CSS3
+Components: SASS, Bourbone
+Software: Sublime Text, Ruby, iTerm, Jekyll, Github
