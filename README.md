@@ -29,9 +29,8 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Add pages
 * √ Fix current post
 * √ Fix responsive version
-* Compress images
 * Migrate from Wordpress blog
-* Change the dommain
+* √ Change the dommain
 * Test another colors
 * Create RSS file
 * Fix font size to 1em = 28px
