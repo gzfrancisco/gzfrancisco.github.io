@@ -35,12 +35,15 @@ aside {
   aside header h1 {
     font-size: 1.9em;
     font-weight: bold;
-    color: #6c7077; }
+    color: #6c7077;
+    top: 0;
+    position: static;
+    text-align: initial; }
     aside header h1 a {
+      top: 0;
+      position: static;
       color: #6c7077;
       display: block;
-      position: static;
-      top: 0;
       width: inherit;
       text-align: initial;
       maring: 0 0;
@@ -50,10 +53,13 @@ aside {
       border: 0px none red;
       border-radius: 0; }
   aside header h2 {
+    top: 0;
+    position: static;
     font-size: 0.9em;
     font-weight: 100;
     color: #5d5f67;
-    text-shadow: 1px 1px white; }
+    text-shadow: 1px 1px white;
+    text-align: initial; }
   aside nav {
     border-top: solid 1px #eeeeee;
     border-bottom: solid 1px #eeeeee;
@@ -152,13 +158,13 @@ table tbody tr td {
 
 header {
   color: white; }
-  header hgroup h1 {
+  header h1 {
     position: relative;
     top: 180px;
     width: 100%;
     text-align: center;
     color: white; }
-  header hgroup h2 {
+  header h2 {
     position: relative;
     top: 180px;
     width: 100%;
@@ -288,7 +294,7 @@ html body {
           width: calc(100% + 20px);
           height: 210px;
           margin: 0 -10px; }
-          html body section article header hgroup h1, html body section article header hgroup h2, html body section article header hgroup time, html body section article header hgroup a {
+          html body section article header h1, html body section article header h2, html body section article header time, html body section article header a {
             top: 70px; }
         html body section article #recent-post {
           padding: 10px; }
@@ -305,5 +311,5 @@ html body {
     padding: 0; }
     html body section article header {
       height: 300px; }
-      html body section article header hgroup h1, html body section article header hgroup h2, html body section article header hgroup time, html body section article header hgroup a {
+      html body section article header h1, html body section article header h2, html body section article header time, html body section article header a {
         top: 120px; } }
