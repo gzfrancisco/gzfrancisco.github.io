@@ -25,7 +25,7 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Add stackoverflow and linkedin profiles links
 * √ Remove Guard file configuration
 * √ Remove Awesome font gem
-* [Fix W3C problems](http://validator.w3.org/check?uri=http%3A%2F%2Fgzfrancisco.github.io%2F2014%2F05%2F09%2Farticles-styles%2F&charset=%28detect+automatically%29&doctype=Inline&group=0)
+* √ [Fix W3C problems](http://validator.w3.org/check?uri=http%3A%2F%2Fgzfrancisco.github.io&charset=%28detect+automatically%29&doctype=Inline&group=0) *awww yeah*
 * √ Add pages
 * √ Fix current post
 * √ Fix responsive version
@@ -36,11 +36,11 @@ To run the developer mode, in terminal run foreman with all task.
 * Create RSS file
 * Fix font size to 1em = 28px
 * √ Add favicon, *its awesome!*
-* Add meta tags
+* √ Add meta tags
 * Optimize images
 * Implement button for toggle menu in phone and tablets
-* Create robots.txt
-* Create humans.txt
+* √ Create robots.txt
+* √ Create humans.txt
 
 ## Credits
 
