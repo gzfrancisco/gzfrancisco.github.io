@@ -2,6 +2,10 @@ name: Don's Bōjutsu
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+  analytics:
+    provider: google
+    google:
+        tracking_id: 'UA-51005412-1'
 highlighter: pygments
 permalink: pretty
 author: Francisco Granados
