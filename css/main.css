@@ -316,7 +316,10 @@ html body {
         padding: 0 5px; } }
 @media screen and (min-width: 481px) and (max-width: 800px) {
   html body aside {
-    display: none; }
+    display: none;
+    z-index: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; }
   html body section {
     padding: 0; }
     html body section article header {
