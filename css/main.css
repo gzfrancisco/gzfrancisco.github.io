@@ -3,7 +3,7 @@
   padding: 0; }
 
 .clean-font, * {
-  font-family: "Helvetica Neue", Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .full-window, html, html body, html body section {
   width: 100%;
@@ -27,7 +27,7 @@ aside {
   width: 250px;
   height: 100%;
   position: fixed;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f8f8f8;
   padding: 20px 30px;
   border-top: solid 5px #d70919;
@@ -79,8 +79,11 @@ aside {
     font-size: 15px;
     line-height: 28px;
     word-spacing: 10px; }
-    aside ul li a i {
-      width: 10px; }
+    aside ul li a {
+      width: 100%;
+      display: block; }
+      aside ul li a i {
+        width: 10px; }
 
 h1 {
   font-size: 3em;
@@ -136,7 +139,7 @@ blockquote {
     margin: 0 auto; }
 
 code {
-  font-family: "Source Code Pro", sans-serif;
+  font-family: "Source Code Pro", Monaco, Courier, sans-serif;
   font-weight: 100;
   font-size: 1em;
   background-color: #879099;
@@ -282,8 +285,15 @@ html body {
     font-size: 10px; }
     html body aside {
       z-index: 1;
-      overflow: auto;
-      display: none; }
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      display: none;
+      padding: 5px;
+      width: 66%;
+      font-size: 1.5em; }
+      html body aside ul li a {
+        font-size: 1.5em;
+        line-height: 200%; }
     html body section {
       padding: 0; }
       html body section article {
@@ -303,7 +313,7 @@ html body {
             list-style: none; }
       html body section footer {
         width: 100%;
-        padding: 0 10px; } }
+        padding: 0 5px; } }
 @media screen and (min-width: 481px) and (max-width: 800px) {
   html body aside {
     display: none; }
