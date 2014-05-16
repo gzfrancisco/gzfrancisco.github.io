@@ -31,12 +31,13 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Fix responsive version
 * Migrate from Wordpress blog
 * √ Change the dommain
+* √ Add Google Analytics [It was a pain](https://productforums.google.com/forum/#!topic/analytics/WlMQzed6wC8)
 * Test another colors
-* Create RSS file
+* √ Create RSS file
 * Fix font size to 1em = 28px
 * √ Add favicon, *its awesome!*
 * √ Add meta tags
-* Optimize images
+* √ Optimize images
 * Implement button for toggle menu in phone and tablets
 * √ Create robots.txt
 * √ Create humans.txt
