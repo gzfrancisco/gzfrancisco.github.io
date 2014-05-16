@@ -41,6 +41,15 @@ To run the developer mode, in terminal run foreman with all task.
 * Implement button for toggle menu in phone and tablets
 * √ Create robots.txt
 * √ Create humans.txt
+* Add specific iOS HTLM tags
+* Add ViveTuRetiro app to projects header
+
+### Image compress
+
+1. All images in 9:16 aspect ratio
+2. Images minimum at 1200 width at 300 ppi
+3. Compress with jpegoptim -w80 filename.jpg as say [Google PageSpeed](https://developers.google.com/speed/docs/best-practices/payload#CompressImages)
+
 
 ## Credits
 
