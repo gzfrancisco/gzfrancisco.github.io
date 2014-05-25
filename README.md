@@ -29,7 +29,7 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Add pages
 * √ Fix current post
 * √ Fix responsive version
-* Migrate from Wordpress blog
+* √ Migrate from Wordpress blog
 * √ Change the dommain
 * √ Add Google Analytics [It was a pain](https://productforums.google.com/forum/#!topic/analytics/WlMQzed6wC8)
 * Test another colors
@@ -38,11 +38,13 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Add favicon, *its awesome!*
 * √ Add meta tags
 * √ Optimize images
-* Implement button for toggle menu in phone and tablets
+* √ Implement button for toggle menu in phone and tablets
 * √ Create robots.txt
 * √ Create humans.txt
 * Add specific iOS HTLM tags
 * Add ViveTuRetiro app to projects header
+* Filter post by languaje
+
 
 ### Image compress
 
