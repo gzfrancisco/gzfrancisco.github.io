@@ -24,6 +24,7 @@ Esto son algunos de los cursos que he impartido:
 5. Ruby on Rails applications
 6. Rails in deep
 7. Heroku for begginers
+8. Rubymotion 101
 7. Fat clients with EmberJS
 8. Agile web development with SASS, Coffeescript and HAML
 9. C the hard way (based on a book from Zed's Shaw)
