@@ -1,4 +1,4 @@
-ruby '2.0.0'
+ruby '2.1.1'
 
 source 'https://rubygems.org'
 
@@ -6,3 +6,4 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'sass'
 gem 'bourbon'
+gem 'foreman', require: false
