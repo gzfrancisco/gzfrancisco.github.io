@@ -2,7 +2,7 @@
 layout: post
 title:  "Cursos y capacitación"
 date:   2014-08-17 20:10:00
-category: training
+category: traing, training
 lang: es_MX
 ---
 
