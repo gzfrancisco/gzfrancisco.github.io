@@ -41,8 +41,6 @@ Esto son algunos de los cursos que he impartido:
 
 En la mayoría de los cursos mi temario es personalizado y los ejercicios son únicos. Algunos cursos tienen de soporte un libro en ingles con los temas vistos.
 
-Actualmente colaboro de forma regular con [Activ Developing Experiences](http://activ.com.mx).
-
 Si estas interesado en alguno de mis cursos, por favor envía un correo o haz una mención en mi Twitter.
 
 Estos son mis datos:
