@@ -1,0 +1,39 @@
+{
+  "friends": [
+    {
+      "birth_date": "Thu Mar 05 1970 07:09:50 GMT-0600 (CST)", 
+      "gender": "male", 
+      "first_name": "Rochelle", 
+      "last_name": "Carlson", 
+      "twitter": "Flowers_0"
+    }, 
+    {
+      "birth_date": "Sat Jan 13 1973 13:07:21 GMT-0600 (CST)", 
+      "gender": "female", 
+      "first_name": "Vang", 
+      "last_name": "Maldonado", 
+      "twitter": "Bertha_1"
+    }, 
+    {
+      "birth_date": "Tue Jul 31 2012 15:42:47 GMT-0500 (CDT)", 
+      "gender": "female", 
+      "first_name": "Cooke", 
+      "last_name": "Wallace", 
+      "twitter": "Susanna_2"
+    }, 
+    {
+      "birth_date": "Fri Sep 14 2001 07:19:44 GMT-0500 (CDT)", 
+      "gender": "female", 
+      "first_name": "Hernandez", 
+      "last_name": "Shannon", 
+      "twitter": "Celina_3"
+    }, 
+    {
+      "birth_date": "Mon Oct 15 1979 18:58:25 GMT-0500 (CDT)", 
+      "gender": "female", 
+      "first_name": "Imelda", 
+      "last_name": "Olsen", 
+      "twitter": "Marta_4"
+    }
+  ]
+}
