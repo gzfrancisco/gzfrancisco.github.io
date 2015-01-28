@@ -1,8 +1,7 @@
-ruby '2.1.1'
+ruby '2.2.0'
 
 source 'https://rubygems.org'
 
-# gem "rails"
 gem 'jekyll'
 gem 'sass'
 gem 'bourbon'

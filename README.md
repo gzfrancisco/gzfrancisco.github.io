@@ -1,5 +1,8 @@
-gzfrancisco.github.io
-=====================
+Don's Bōjutsu
+====================
+
+My personal web blog
+--------------------
 
 ## Dependecies
 
@@ -44,6 +47,7 @@ To run the developer mode, in terminal run foreman with all task.
 * Add specific iOS HTLM tags
 * Add ViveTuRetiro app to projects header
 * Filter post by languaje
+* Fix font wide
 
 
 ### Image compress

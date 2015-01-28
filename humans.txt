@@ -5,10 +5,10 @@ Twitter: @gzfrancisco
 Location: Mexico city, Mexico
 
 /* THANKS */
-
+Designer: Ravi Patel
 
 /* SITE */
-Last update: 2014/05/15
+Last update: 2015/01/27
 Standards: HTML5, CSS3
 Components: SASS, Bourbone
 Software: Sublime Text, Ruby, iTerm, Jekyll, Github
