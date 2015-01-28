@@ -3,7 +3,7 @@ layout: post
 title:  "El susurro de las ondas"
 date:   2014-05-19 19:21:00
 category: music
-lang: es_MX
+lang: es
 ---
 # El susurro de las ondas
 

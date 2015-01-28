@@ -3,7 +3,7 @@ layout: post
 title:  "Cursos y capacitación"
 date:   2014-08-17 20:10:00
 category: training
-lang: es_MX
+lang: es
 ---
 
 Dentro de mis habilidades se encuentra el poder impartir cursos e instrucción en diferentes temas. He participado desde joven en la capacitación de tecnologías de la información y después en herramientas de software.
