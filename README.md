@@ -47,7 +47,8 @@ To run the developer mode, in terminal run foreman with all task.
 * Add specific iOS HTLM tags
 * Add ViveTuRetiro app to projects header
 * Filter post by languaje
-* Fix font wide
+* √ Fix font wide
+* √ Fix post list date in phone querie
 
 
 ### Image compress
