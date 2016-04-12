@@ -10,7 +10,11 @@ lang: en
 
 # My first gem
 
+I always wanted to make a contribution to the OpenSource, but many times I found a way to not doing. It’s a good practice not be egocentric and think your work is better than others. The real thing is you suck looking for on Google or StackOverflow.
 
+But some times, little times you have a problem solved and you can make a simple contribution into the OpenSource world.
+
+I had these problem and look into StackOverflow many ways to solve them but none of them was simple as bundle install. So I created one.
 
 ## Seed env
 
