@@ -17,7 +17,7 @@ lang: en
 
 [Procfile definition Heroku](https://devcenter.heroku.com/articles/procfile). Is the definition about Procfile in Heroku documentation devcenter.
 
-[Unix help for Users](http://unixhelp.ed.ac.uk). Help guide to tasks, commands and concepts. Great resource.
+[Unix help for Users](http://www.whoishostingthis.com/resources/unix-programming/). Help guide to tasks, commands and concepts. Great resource.
 
 [Advance Jekyll Plugin & Features](http://www.divshot.com/blog/web-development/advanced-jekyll-features/). This shows how to create plugins and add features to your jekill blog.
 
