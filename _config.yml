@@ -1,8 +1,4 @@
 name: Don's Bōjutsu
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-highlighter: pygments
 permalink: pretty
 author: Francisco Granados
 description: 'Blog of Francisco Granados aka gzfrancisco, developer and economist.'
