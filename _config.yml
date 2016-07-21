@@ -1,5 +1,6 @@
 name: Don's Bōjutsu
 permalink: pretty
+markdown: kramdown
 author: Francisco Granados
 description: 'Blog of Francisco Granados aka gzfrancisco, developer and economist.'
 tagline: 'Memories for code, music and life.'
