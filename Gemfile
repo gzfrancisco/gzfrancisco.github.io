@@ -4,3 +4,5 @@ gem 'jekyll'
 gem 'sass'
 gem 'bourbon'
 gem 'foreman', require: false
+gem 'redcarpet'
+gem 'pygments.rb'
