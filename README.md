@@ -50,6 +50,11 @@ To run the developer mode, in terminal run foreman with all task.
 * √ Fix font wide
 * √ Fix post list date in phone querie
 
+- [] Update website information
+- [] Add recient post
+- [] Add recient projects
+- [] Change list capitalized titles
+
 
 ### Image compress
 

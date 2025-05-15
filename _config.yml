@@ -1,10 +1,10 @@
 name: Don's Bōjutsu
 permalink: pretty
-author: Francisco Granados
-description: 'Blog of Francisco Granados aka gzfrancisco, developer and economist.'
-tagline: 'Memories for code, music and life.'
-keywords: 'gzfrancisco blog, Francisco Granados, iOS developer, ruby programmer'
-timezone: America/Mexico_City
-url: http://gzfrancisco.name
+author: Francisco Granados Gómez
+description: 'Blog of gzfrancisco; economist, engineer, scuba diver, and music lover.
+tagline: 'Thoughs on technology, economy, politics, music, and life.'
+keywords: 'gzfrancisco blog, Francisco Granados Gomez, software engineer'
+timezone: America/Pacific_Time_Zone
+url: https://gzfrancisco.github.io
 
 exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'Procfile', 'README.md']
